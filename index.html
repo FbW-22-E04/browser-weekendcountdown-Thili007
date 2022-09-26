@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style src="style.css"></style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main class="main">
+      <h2>Welcome to the Weekend Countdown</h2>
+      <p id="changeText"></p>
+      <input
+        class="inputClass"
+        id="inputClass"
+        type="text"
+        placeholder="Please Type your Name"
+      />
+      <section class="btn-section">
+        <button class="btn" id="btn">Check</button>
+        <button
+          class="btn-refresh"
+          id="btn-refresh"
+          onClick="document.location.reload(true)"
+        >
+          Refresh
+        </button>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

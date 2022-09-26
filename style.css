@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 80rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+#changeText {
+  font-size: 3rem;
+}
+
+.inputClass {
+  font-size: 4rem;
+}
+
+.inputClass:focus {
+  font-size: 4rem;
+  background-color: blanchedalmond;
+  color: rgb(234, 167, 32);
+  padding: 20px;
+}
+
+.btn {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.btn:hover {
+  font-size: 2.5rem;
+  background-color: rgb(134, 172, 211);
+}
+
+.btn-refresh {
+  font-size: 2rem;
+  margin: 1rem;
+}
